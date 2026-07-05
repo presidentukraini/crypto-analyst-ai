@@ -1,3 +1,5 @@
 from telegram_bot import send_telegram_message
 
-send_telegram_message("🚀 Crypto Analyst AI успішно підключений!")
+response = send_telegram_message("🚀 Перевірка після .env")
+
+print(response)
